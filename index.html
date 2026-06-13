@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crebrl AI — Private, On-Premise Enterprise AI</title>
+  <meta name="description" content="Crebrl AI builds air-gapped, on-premise AI for enterprises — one flat annual licence, no per-query cloud costs, full data sovereignty.">
+  <link rel="icon" href="images/CrebrlAI_Logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="images/CrebrlAI_Logo.png" alt="Crebrl AI logo">
+        Crebrl AI
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">Menu</button>
+      <nav class="links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products &amp; Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="nav-cta">Talk to Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Architect of Intelligence</span>
+        <h1>Enterprise AI that never leaves your walls.</h1>
+        <p class="lead">
+          Crebrl AI delivers private, air-gapped AI appliances for the enterprise —
+          deployed on your infrastructure, governed by your policies, and priced
+          with one flat annual licence. No per-query metering. No data leaving
+          your perimeter.
+        </p>
+        <div class="hero-ctas">
+          <a href="contact.html" class="btn btn-primary">Request a Demo</a>
+          <a href="products.html" class="btn btn-outline">Explore the Platform</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="num">100%</span>
+            <span class="label">On-Premise &amp; Air-Gapped</span>
+          </div>
+          <div class="hero-stat">
+            <span class="num">1</span>
+            <span class="label">Flat Annual Licence</span>
+          </div>
+          <div class="hero-stat">
+            <span class="num">0</span>
+            <span class="label">Per-Query Cloud Fees</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Signature element: closed-loop circuit diagram -->
+        <svg class="loop-diagram" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing data flowing in a closed loop entirely within an enterprise boundary">
+          <rect class="boundary" x="20" y="20" width="440" height="380" rx="6"></rect>
+          <text x="40" y="48" class="label-gold">YOUR INFRASTRUCTURE</text>
+
+          <!-- nodes -->
+          <circle class="node" cx="120" cy="120" r="8"></circle>
+          <circle class="node" cx="360" cy="120" r="8"></circle>
+          <circle class="node" cx="360" cy="300" r="8"></circle>
+          <circle class="node" cx="120" cy="300" r="8"></circle>
+          <circle class="node node-fill" cx="240" cy="210" r="14"></circle>
+
+          <text x="80" y="100" >USERS</text>
+          <text x="320" y="100">PRIVATE AI</text>
+          <text x="318" y="330">DATA STORE</text>
+          <text x="78" y="330">APPS</text>
+          <text x="218" y="190">CORE</text>
+
+          <!-- closed loop trace -->
+          <path class="trace" d="M120,120 L360,120 L360,300 L120,300 L120,120 M120,120 L240,210 M360,120 L240,210 M360,300 L240,210 M120,300 L240,210"></path>
+          <path class="trace trace-2" d="M120,300 L360,300 L360,120 L120,120 L120,300"></path>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PROBLEM / NARRATIVE -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">The Problem With Cloud AI</span>
+        <h2>Every prompt is a meter running.</h2>
+        <p>
+          Cloud AI platforms charge per token, per query, per seat — costs that
+          scale unpredictably as your teams adopt AI more deeply. Worse, every
+          request travels outside your network, raising questions your
+          compliance, legal, and security teams can't always answer.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <span class="tag">Cost</span>
+          <h3>Unbounded token bills</h3>
+          <p>The more your teams use AI, the more you pay — with no ceiling and no way to plan a budget around it.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Sovereignty</span>
+          <h3>Data leaves the building</h3>
+          <p>Contracts, financials, and customer records get sent to third-party servers you don't control or fully see.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Predictability</span>
+          <h3>Pricing changes on their terms</h3>
+          <p>Vendors revise pricing and limits at will — your AI strategy shouldn't depend on someone else's roadmap.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE'RE DIFFERENT -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">The Crebrl AI Approach</span>
+        <h2>One appliance. One licence. Your infrastructure.</h2>
+        <p>
+          We deploy a complete private AI appliance inside your environment —
+          on-premise or air-gapped — covering the applications your teams
+          already rely on, built to integrate natively with your AI core.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <span class="tag">01 Deploy</span>
+          <h3>Install on your infrastructure</h3>
+          <p>The Crebrl AI appliance runs entirely within your data centre or private cloud — no external dependencies for inference.</p>
+        </div>
+        <div class="card">
+          <span class="tag">02 Operate</span>
+          <h3>Native business applications</h3>
+          <p>User management, HR, CRM, contracts, inventory and sourcing — all built to work directly with your private AI core.</p>
+        </div>
+        <div class="card">
+          <span class="tag">03 Scale</span>
+          <h3>One flat annual licence</h3>
+          <p>Add users and use cases without recalculating your AI bill. Your costs stay flat as adoption grows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section>
+    <div class="container">
+      <div class="cta-band">
+        <span class="eyebrow">Get Started</span>
+        <h2>See Crebrl AI on your own infrastructure.</h2>
+        <p>
+          Talk to our team about a private, on-premise deployment tailored to
+          your enterprise — and a pricing model that doesn't punish adoption.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="images/CrebrlAI_Logo.png" alt="Crebrl AI logo">
+            <span>Crebrl AI</span>
+          </div>
+          <p>Private, on-premise AI for enterprises that need data sovereignty and cost predictability.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products &amp; Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <p>Crebrl AI Technologies Pvt. Ltd.</p>
+          <p>Pune, Maharashtra, India</p>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="mailto:hello@crebrl.ai">hello@crebrl.ai</a>
+          <a href="https://www.linkedin.com/in/agrawalbharat3785" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Crebrl AI Technologies Pvt. Ltd. All rights reserved.</span>
+        <span>crebrl.ai</span>
+      </div>
+    </div>
+    <div class="tagline-strip">Architect of Intelligence</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

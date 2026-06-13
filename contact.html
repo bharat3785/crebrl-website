@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Crebrl AI</title>
+  <meta name="description" content="Get in touch with Crebrl AI to discuss a private, on-premise AI deployment for your enterprise.">
+  <link rel="icon" href="images/CrebrlAI_Logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="images/CrebrlAI_Logo.png" alt="Crebrl AI logo">
+        Crebrl AI
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">Menu</button>
+      <nav class="links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products &amp; Services</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="nav-cta">Talk to Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Let's talk about your deployment.</h1>
+      <p>
+        Whether you're exploring private AI for the first time or ready to
+        scope a deployment, our team will respond within one business day.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="eyebrow">Contact Details</span>
+        <h2>Crebrl AI Technologies Pvt. Ltd.</h2>
+        <p>
+          Reach us directly using the details below, or send a message using
+          the form and we'll get back to you.
+        </p>
+
+        <div class="info-list">
+          <div class="info-item">
+            <span class="label">Email</span>
+            <span class="value"><a href="mailto:hello@crebrl.ai">hello@crebrl.ai</a></span>
+          </div>
+          <div class="info-item">
+            <span class="label">Location</span>
+            <span class="value">Pune, Maharashtra, India</span>
+          </div>
+          <div class="info-item">
+            <span class="label">LinkedIn</span>
+            <span class="value"><a href="https://www.linkedin.com/in/agrawalbharat3785" target="_blank" rel="noopener">linkedin.com/in/agrawalbharat3785</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="eyebrow">Send a Message</span>
+        <h2>Tell us about your project</h2>
+
+        <!--
+          FORM SETUP NOTE (remove this comment once configured):
+          This form uses Formspree (https://formspree.io) — a free service
+          that emails form submissions to you without needing a backend.
+          Replace YOUR_FORM_ID below with the ID Formspree gives you after
+          you sign up and verify hello@crebrl.ai. Step-by-step instructions
+          are in the setup guide provided alongside this site.
+        -->
+        <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div>
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Your organisation">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@company.com" required>
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Optional">
+            </div>
+          </div>
+
+          <div>
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest">
+              <option value="Private AI Appliance">Private AI Appliance</option>
+              <option value="HRMS">HRMS</option>
+              <option value="CRM">CRM</option>
+              <option value="CLM">Contract Lifecycle Management</option>
+              <option value="Inventory & Sourcing">Inventory &amp; Sourcing</option>
+              <option value="General Enquiry">General Enquiry</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us a little about your environment and what you're looking to achieve" required></textarea>
+          </div>
+
+          <!-- Honeypot field to reduce spam -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-note" id="form-status" style="margin-top:14px;"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="images/CrebrlAI_Logo.png" alt="Crebrl AI logo">
+            <span>Crebrl AI</span>
+          </div>
+          <p>Private, on-premise AI for enterprises that need data sovereignty and cost predictability.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products &amp; Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <p>Crebrl AI Technologies Pvt. Ltd.</p>
+          <p>Pune, Maharashtra, India</p>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="mailto:hello@crebrl.ai">hello@crebrl.ai</a>
+          <a href="https://www.linkedin.com/in/agrawalbharat3785" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Crebrl AI Technologies Pvt. Ltd. All rights reserved.</span>
+        <span>crebrl.ai</span>
+      </div>
+    </div>
+    <div class="tagline-strip">Architect of Intelligence</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
